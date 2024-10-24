@@ -1,0 +1,121 @@
+header{
+    padding: 10px;
+}
+
+#link:hover{
+    color: rgb(210, 53, 53);
+}
+
+a{
+    text-decoration: none;
+}
+.img-web-3{
+    width: 98%;
+}
+section{
+    padding: 10px;
+}
+.h1-giant{
+    padding: 10px;
+    font-size: 40px;
+}
+h1{
+    font-family: 'Inter Black';
+}
+p{
+    font-family: 'Inter Regular';
+}
+
+#button{
+    font-family: 'Inter Medium';
+    color: black;
+    background-color: rgb(210, 53, 53);
+    width: 50%;
+    padding: 10px;
+}
+#button:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+.section-aside{
+    padding: 10px;
+    margin-left: 40px;
+}
+.aside-principal{
+    background-color: rgb(18, 18, 18);
+    padding: 20px;
+    height: 515px;
+    h2{
+        color: rgb(240, 170, 51);
+        font-family: 'Inter ExtraBold';
+    }
+    h4, a{
+        color: whitesmoke;
+        font-family: 'Inter SemiBold';
+    }
+    h4, a:hover{
+        color: rgb(240, 170, 51);
+    }
+    p{
+        color: whitesmoke;
+        font-family: 'Inter Thin';
+    }
+    hr{
+        color: whitesmoke;
+    }
+    
+}
+
+.section-left{
+    h3{
+        color: rgb(210, 53, 53);
+        font-family: 'Inter ExtraBold';
+    }
+    h4, a{
+        font-family: 'Inter ExtraBold';
+        color: black;
+    }
+    h4, a:hover{
+        color: rgb(210, 53, 53);
+    }
+    
+}
+.img-retro-pc{
+    width: 75%;
+}
+@font-face {
+    font-family: 'Inter Regular';
+    src: url(../assets/fonts/Inter-VariableFont_slnt,wght.ttf);
+}
+
+@media (min-width: 320px) and (max-width: 430px) {
+    .img-web-3{
+        width: 100%;
+    }
+
+    .section-aside{
+        padding: 10px;
+        margin-left: 10px;
+    }
+
+    .aside-principal{
+        height: 615px;
+    }
+
+    .section-left{
+        margin-left: 75px;
+        margin-top: -105px;
+        h3, h4{
+            font-size: 110%;
+        }
+        p{
+            font-size: 80%;
+            margin-right: 50px;
+        }
+    }
+
+    .img-retro-pc{
+        margin-left: -11px;
+        width: 30%;
+    }
+}
